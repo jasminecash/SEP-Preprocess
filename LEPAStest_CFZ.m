@@ -107,8 +107,8 @@ cd('raw_eeg')
 %     EEG = eeg_checkset( EEG );
 
    %% re-reference to average reference after cleaning is done - I omitted this step for now
-     EEG = pop_reref( EEG, []);
-    EEG = eeg_checkset( EEG );
+    % EEG = pop_reref( EEG, []);
+   % EEG = eeg_checkset( EEG );
 
    %% take a first look at the ERPs timelocked to teh sensory stimulus at time 0 (i.e., your SEPs)
 
