@@ -9,7 +9,7 @@ if ispc
 else
     eeglab_path = ('/Users/jac277/Documents/MATLAB/eeglab2022.1'); 
 %     addpath('/path/to/yourownfunctions'); % you may need a directpry where you store random functions
-    addpath('/Volumes/chp-matlab/heise/LEPAS/LEPAS_Pilot/CFZ');% change this to your directory where your analysis script sits
+    addpath('/Volumes/chp-matlab/heise/LEPAS/LEPAS_Pilot/FCZ');% change this to your directory where your analysis script sits
 end
 cd(eeglab_path)
 eeglab
@@ -19,7 +19,7 @@ eeglab
 
 % define starting directory
 start_path = fullfile('/Volumes/chp-matlab/heise/OTHER_Pilots/'); % path to folder with layout info
-data_path = fullfile('/Volumes/chp-matlab/heise/LEPAS/LEPAS_Pilot/CFZ'); % this is where your data is currently, you can change it to a different directory once this is set up for your data collection
+data_path = fullfile('/Volumes/chp-matlab/heise/LEPAS/LEPAS_Pilot/FCZ'); % this is where your data is currently, you can change it to a different directory once this is set up for your data collection
 
 chan_locations = [start_path filesep 'acquisition_layout_information' filesep 'CACS-96_REF.bvef'];  
 
