@@ -1,5 +1,5 @@
 # SEP-Preprocess
-Compare extrcephalic (earlobes) reference to cephalic (CFZ)
+Compare extrcephalic (earlobes) reference to cephalic (FCz)
 
 Data collection notes:
 64 channels, size 64 cap
